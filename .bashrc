@@ -162,17 +162,17 @@ shopt -s histappend
 
 # Make prompt informative
 # See:  http://www.ukuug.org/events/linux2003/papers/bash_tips/
-PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
+PS1="\[\e[34m\]\u [\t]: \[\e[0m\]"
 
 ## -----------------------
 ## -- 2) Set up aliases --
 ## -----------------------
 
 # 2.1) Safety
-alias rm="rm -i"
-alias mv="mv -i"
-alias cp="cp -i"
-set -o noclobber
+# alias rm="rm -i"
+# alias mv="mv -i"
+# alias cp="cp -i"
+# set -o noclobber
 
 # 2.2) Listing, directories, and motion
 alias ll="ls -alrtF --color"

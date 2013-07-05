@@ -162,7 +162,7 @@ shopt -s histappend
 
 # Make prompt informative
 # See:  http://www.ukuug.org/events/linux2003/papers/bash_tips/
-PS1="\[\e[34m\]\u [\t]: \[\e[0m\]"
+PS1="\[\e[34m\][\t]\w\$ \[\e[0m\]"
 
 ## -----------------------
 ## -- 2) Set up aliases --

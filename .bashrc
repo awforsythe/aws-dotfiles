@@ -187,6 +187,7 @@ alias md='mkdir'
 alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
+alias ls="ls --color"
 
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
@@ -225,3 +226,6 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
